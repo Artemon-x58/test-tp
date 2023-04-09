@@ -1,33 +1,117 @@
 .subscribe {
+  background-color: blueviolet;
+  padding-top: 62px;
   padding-bottom: 63px;
 }
 .subscribe-explore {
+  max-width: 291px;
+  margin-bottom: 24px;
+
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  color: var(--white-color);
 }
 .subscribe-text {
+  margin-bottom: 24px;
+  max-width: 326px;
+
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: var(--white-color);
 }
 .subscribe-button {
+  transition: background-color var(--trans), color var(--trans);
+
+  min-width: 128px;
+  padding: 12px 28px;
+  background: var(--accent-color);
+  border-radius: 100px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--white-color);
 }
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #fcf1e0;
+  color: var(--accent-color);
+}
+
 .subscribe-modal {
+  position: relative;
+
+  width: 311px;
+  padding: 32px 24px;
+
+  background: #fafafa;
+  border-radius: 15px;
+}
+.subscribe-modal-bg {
+  height: 169px;
+
+  background-image: url(../img/subscribe/subscribe-modal-bg-mob@1.jpg);
 }
 .subscribe-modal-btn {
 }
 .subscribe-modal-btn-close {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+
+  stroke: tomato;
 }
 .subscribe-modal-text {
+  margin-bottom: 24px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
 }
 .subscribe-modal-new {
+  color: var(--accent-color);
 }
 .subscribe-modal-form {
 }
 .subscribe-review-input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 25px;
 }
 .subscribe-review-submit {
+  transition: background-color var(--trans), color var(--trans);
+
+  position: absolute;
+  right: 24px;
+  bottom: 32px;
+
+  min-width: 100px;
+  padding: 14px 22px;
+  background: var(--accent-color);
+  border-radius: 100px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--white-color);
 }
 
 /* .subscribe {
