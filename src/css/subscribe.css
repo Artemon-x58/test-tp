@@ -1,4 +1,36 @@
 .subscribe {
+  padding-bottom: 63px;
+}
+.subscribe-explore {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.subscribe-text {
+}
+.subscribe-button {
+}
+.subscribe-modal {
+}
+.subscribe-modal-btn {
+}
+.subscribe-modal-btn-close {
+}
+.subscribe-modal-text {
+}
+.subscribe-modal-new {
+}
+.subscribe-modal-form {
+}
+.subscribe-review-input {
+}
+.subscribe-review-submit {
+}
+
+/* .subscribe {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../img/subscribe/subcribe.jpg);
   background-size: cover;
@@ -423,4 +455,4 @@
 .subscribe-button:hover {
   color: var(--accent-color);
   background-color: var(--hover-background-color-btn);
-}
+} */
